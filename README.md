@@ -25,8 +25,14 @@ $ git remote add origin https://github.com/Everton-D-Alves/ProjetoGit.git (Enter
 $ git push -u origin main (Enter)
     Após isso, aparecerá uma caixa de texto para fazer um login no GitHub.
     Ao entrar no GitHub, atualizar a página para aparecer o repositório 'ProjetoGit'.
-
     Fazendo o versionamento (mudança):
     Isso é uma alteração.
     Criar também um outro arquivo, exemplo, 'Projeto.md'.
     Limpar a tela do terminal: clear (+ Enter)
+$ git add . (Enter)
+    O ponto adiciona todas as mudanças.
+$ git status (Enter)
+$ git commit -m "Criação do projeto" (Enter)
+    Agora fará o 'push' sem o '-u':
+$ git push origin main (Enter)
+    O comando 'remote' só é adicionado 1 vez.
