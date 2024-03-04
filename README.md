@@ -36,3 +36,10 @@ $ git commit -m "Criação do projeto" (Enter)
     Agora fará o 'push' sem o '-u':
 $ git push origin main (Enter)
     O comando 'remote' só é adicionado 1 vez.
+    Limpar a tela do terminal: clear (+ Enter)
+    Criar uma branch:
+$ git checkout -b "novo-botao"
+    Agora o nome da branch é novo-botao.
+    Ao criar o arquivo botao.md, digita no terminal:
+$ git add . (Enter)
+$ git commit -m "Novo botão." (Enter)
