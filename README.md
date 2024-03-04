@@ -43,3 +43,19 @@ $ git checkout -b "novo-botao"
     Ao criar o arquivo botao.md, digita no terminal:
 $ git add . (Enter)
 $ git commit -m "Novo botão." (Enter)
+    Para adicionar ao GitHub na branch ao invés de main, fará:
+$ git push origin novo-botao (Enter)
+    Atualizar página do GitHub. Agora têm 2 branches: main e novo-botao.
+    O 'novo-botao' é uma branch (ramo) que está na frente da branch principal 'main'.
+    Se quizer voltar na branch principal 'main', fará:
+$ git checkout main (Enter)
+    Agora pode fazer mudanças no 'main'. Para voltar no 'novo-botao', fará:
+$ git checkout novo-botao (Enter)
+    Agora pode desenvolver em 'novo-botao'.
+    Após finalizar a branch (ramo), para juntar à branch principal (main), fará um 'merge':
+$ git checkout main (Enter)
+    Agora que está no 'main', acontecerá o 'merge':
+$ git merge novo-botao (Enter)
+    Para finalizar, fará:
+$ git push origin main (Enter)
+    Atualizar a página do GitHub. Verificar as mudanças.
